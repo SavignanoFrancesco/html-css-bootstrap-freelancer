@@ -51,3 +51,13 @@ nav{
 .hamburger{
     display: inline-block;
 }
+
+/* JUMBOTRON */
+.jumbotron{
+    background-color: #1abc9c;
+    height: 500px;
+}
+.test{
+    background-color: red;
+    height: 100px;
+}
