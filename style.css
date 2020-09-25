@@ -158,5 +158,23 @@ section.opposite .separator::after{
 }
 
 .portfolio img{
+    position: relative;
+}
+
+.portfolio img:hover{
+    opacity: 0.1;
+}
+
+.overlayfx{
     margin-bottom: 3rem;
+    background-color: #1abc9c;
+    position: relative;
+}
+
+.fa-plus{
+    color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
 }
