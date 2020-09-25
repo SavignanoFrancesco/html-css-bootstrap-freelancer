@@ -194,3 +194,39 @@ section.opposite .separator::after{
     font-size: 20px;
     text-align: left;
 }
+
+form{
+    margin-top: 40px;
+}
+
+form input, textarea{
+    display: block;
+    font-size: 25px;
+    width: 100%;
+    padding: 30px 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #e9ecef;
+}
+
+input[type="text"],input[type="email"],input[type="tel"], input[type="password"], textarea, select {
+    outline: none;
+}
+
+form .btn{
+    background-color: #1abc9c;
+    color: white;
+    margin-top: 15px;
+    float: left;
+}
+
+form .btn:hover{
+    background-color: #159a80;
+    border-color: #148f77;
+}
+
+::placeholder{
+    color: #6d767e;
+    font-size: 25px;
+}
