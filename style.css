@@ -48,6 +48,16 @@ img{
     max-width: 100%;
 }
 
+.btn{
+    border: 2px solid white;
+    padding: 15px 25px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: white;
+}
+
 .fa-star{
     vertical-align: middle;
     margin: 0 5px;
@@ -177,4 +187,10 @@ section.opposite .separator::after{
     transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
+}
+
+.about p{
+    padding: 20px 0;
+    font-size: 20px;
+    text-align: left;
 }
