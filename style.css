@@ -19,7 +19,7 @@ h1{
 }
 
 h2{
-    font-size: 4.5rem;
+    font-size: 3.5rem;
 }
 
 a{
@@ -148,7 +148,7 @@ section.opposite .separator::after{
 }
 
 .navbar strong{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .hamburger{
@@ -296,6 +296,11 @@ form .btn:hover{
     h1{
         font-size: 6rem;
     }
+
+    h2{
+        font-size: 4.5rem;
+    }
+
     .navbar strong{
         font-size: unset;
     }
