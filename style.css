@@ -223,6 +223,22 @@ form input, textarea{
     border-left: none;
     border-bottom: 1px solid #e9ecef;
 }
+.active-fx{
+    position: relative;
+}
+
+.up-fx{
+    position: absolute;
+    display: none;
+    z-index: 10;
+    color: #1abc9c;
+    left: 0;
+    top: 3px;
+}
+
+.active-fx:active .up-fx{
+    display: inline-block;
+}
 
 
 input[type="text"],input[type="email"],input[type="tel"], input[type="password"], textarea, select {
