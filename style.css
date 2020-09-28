@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 h2{
@@ -145,6 +145,10 @@ section.opposite .separator::after{
     background-color: white;
     margin-top: 2px;
     width: 14px;
+}
+
+.navbar strong{
+    font-size: 18px;
 }
 
 .hamburger{
@@ -285,4 +289,14 @@ form .btn:hover{
     color: white;
     padding: 30px 0;
     font-size: 14px;
+}
+
+/* MEDIAQUERY */
+@media screen and (min-width: 398px){
+    h1{
+        font-size: 6rem;
+    }
+    .navbar strong{
+        font-size: unset;
+    }
 }
