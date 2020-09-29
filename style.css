@@ -223,6 +223,11 @@ form input, textarea{
     border-left: none;
     border-bottom: 1px solid #e9ecef;
 }
+
+textarea{
+    resize: none;
+}
+
 .active-fx{
     position: relative;
 }
